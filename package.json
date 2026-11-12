@@ -1,0 +1,30 @@
+{
+  "name": "nested-iframe-dom-exporter",
+  "version": "0.14.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Standalone userscript to export a page and readable nested iframe DOM",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "check:artifacts": "node scripts/build.cjs --check",
+    "test": "node --test tests/dom-export.test.cjs",
+    "release": "npm run build && npm test",
+    "check:release": "node scripts/check-release.cjs"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "4.1.1",
+    "terser": "5.44.1"
+  },
+  "author": "elsebit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elsebit/nested-iframe-dom-exporter.git"
+  },
+  "homepage": "https://github.com/elsebit/nested-iframe-dom-exporter",
+  "bugs": {
+    "url": "https://github.com/elsebit/nested-iframe-dom-exporter/issues"
+  }
+}

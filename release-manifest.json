@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "version": "0.14.0",
+  "tools": {
+    "javascript-obfuscator": "4.1.1",
+    "terser": "5.44.1"
+  },
+  "inputs": {
+    "src/export-dom.js": "f116d093a9972fc13d200cdf7d18e47ea7a36f46f4e4d6d91f7820f9a3648afe",
+    "scripts/build.cjs": "53af825957a404af869d180fdbaefb5750f894dbee20af55231f79fe534a73ad",
+    "scripts/build-config.json": "445a5eb6730386267633741ce9bc4b3a2817fd11d76e4d3f8a6388e270023e41",
+    "package.json": "bebad0fc4331aca15a57483cf76e8ffe11ce6ec77ac70762809415bc010ec48d",
+    "package-lock.json": "0bf1c3d3af96814347477b083d8362c1bb6f67789e617b9defe82515251081fd"
+  },
+  "artifacts": [
+    {
+      "variant": "original",
+      "path": "export-dom.user.js",
+      "bytes": 10276,
+      "sha256": "0019da5cd394edda0b7834d5413783d9a49000fe3acf09f35b4289a4c83ba7c0"
+    },
+    {
+      "variant": "obfuscated",
+      "path": "export-dom.obfuscated.user.js",
+      "bytes": 12300,
+      "sha256": "3ad5165162a82a575c2cef0091db9eb05f5c5b62ea912dbd448a0f6411b5342d"
+    }
+  ]
+}

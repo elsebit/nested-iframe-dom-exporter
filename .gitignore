@@ -1,0 +1,7 @@
+!**/*.cjs
+!**/.gitignore
+!.gitattributes
+node_modules/
+build/
+/finance-dom-*.json
+*.log
